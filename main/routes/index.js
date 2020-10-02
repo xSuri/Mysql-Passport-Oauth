@@ -12,9 +12,9 @@ const router = express.Router();
 
 const PagesController = require("../controllers/PagesController");
 
-router.get("/", PagesController.main);
+router.get("/", isLoggedIn, PagesController.main);
 
-router.get("/good", PagesController.good);
-router.get("/adminpanel", PagesController.adminpanel);
+router.get("/good", isLoggedIn, PagesController.good);
+router.get("/adminpanel", isLoggedIn, PagesController.adminpanel);
 
 module.exports = router;
