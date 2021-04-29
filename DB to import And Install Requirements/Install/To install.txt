@@ -14,6 +14,7 @@ npm install body-parser --save
 npm install mysql --save
 npm install cookie-session --save
 npm install passport --save
+npm install hbs --save
 
 
 Start install.sh to auto install this.
