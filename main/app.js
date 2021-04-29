@@ -33,6 +33,7 @@ app.use(cookieSession({
 
 
 app.use(express.static(__dirname + "/image"));
+app.set('view engine', "hbs");
 
 
 // AUTHS
