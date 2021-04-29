@@ -17,6 +17,7 @@ if [ "$install" = "$yes" ];
     npm install mysql --save
     npm install cookie-session --save
     npm install passport --save
+    npm install hbs --save
 
     echo "Install sucessfull... \n"
 fi
